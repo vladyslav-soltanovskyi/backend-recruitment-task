@@ -1,0 +1,30 @@
+.header {
+  height: 60px;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background-color: rgb(21, 128, 61);
+  border-bottom: 1px solid #ccc;
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      &:not(&:first-child) {
+        margin-left: 15px;
+      }
+
+      a {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+}

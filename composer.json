@@ -1,0 +1,20 @@
+{
+    "name": "soltanovskyi/recruitment-task",
+    "description": "Fullstack recruitment task",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "System\\": "system/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vladyslav-soltanovskyi",
+            "email": "vladsoltanovskih@gmail.com"
+        }
+    ],
+    "require": {
+        "codin/dot": "^0.1.2",
+        "rakit/validation": "^1.4"
+    }
+}
